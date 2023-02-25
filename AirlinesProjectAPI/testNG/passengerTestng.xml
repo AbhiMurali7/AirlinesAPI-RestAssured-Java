@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="createPassenger">
+		<classes>
+			<class name="passenger_testScenario.createPassenger" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="getPassengerID">
+		<classes>
+			<class name="passenger_testScenario.getPassengerID" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="updatePassenger">
+		<classes>
+			<class name="passenger_testScenario.updatePassenger" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="updateAPassenger">
+		<classes>
+			<class name="passenger_testScenario.updateAPassenger" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="deletePassenger">
+		<classes>
+			<class name="passenger_testScenario.deletePassenger" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="getAllPassengers">
+		<classes>
+			<class name="passenger_testScenario.getAllPassengers" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
